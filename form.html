@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            text-align: center;
+        }
+        body{
+            background-color: aqua;
+        }
+        
+        h1:hover{
+            color: blanchedalmond;
+        }
+        a{
+            color:black
+        }
+        a:hover{
+            color:white
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="WIN_20210908_12_02_54_Pro.jpg" height="30" width="40">
+
+    <p><h1>REGISTRATION FORM</h1></p>
+    <form>
+        FIRSTNAME:<input type="text" placeholder="Enter your name"><br><br>
+        MIDDLENAME:<input type="text" placeholder="Enter your middle name"><br><br>
+        <label for="COURSE">COURSE</label><br>
+        <select name="COURSE" id="COURSE"><br>
+            <option value="Btech">Btech</option>
+            <option value="MBA">MBA</option>
+            <option value="Bpharma">Bpharma</option>
+            
+        </select><br><br>
+        GENDER:<input type="radio" name="gender" value="MALE">MALE
+                <input type="radio" name="gender"value="FEMALE">FEMALE<br><br>
+        DATE OF REGISTRATION:<input type="date"><br><br>
+        PHONE NUMBER:<input type="number"><br><br>
+        <audio controls>
+            <source src="audio.mp3" type="audio"></audio><br><br>
+        <input type="SUBMIT"><br><br>
+        <a href="https://jeemain.nta.nic.in/" target="_blank">FOR MORE DETAILS CLICK HERE</a>
+        
+
+    </form>
+    <script>
+        // form -> element
+        let login = form.login;
+      
+        // element -> form
+        alert(login.form); // HTMLFormElement
+      </script>
+</body>
+</html>
